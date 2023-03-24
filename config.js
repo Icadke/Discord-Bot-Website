@@ -5,10 +5,10 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Icad_Bot",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://discord.com/api/oauth2/authorize?client_id=900316331101016094&permissions=396738428598&scope=bot",
   //BotInvite Link
   Features: [
     {
@@ -18,32 +18,25 @@ const config = {
       logo: <MdAddModerator className="h-10 w-10" />,
     },
     {
-      name: "99% Uptime",
+      name: "24/7 online",
       description:
-        "Uptime is a measure of system reliability, expressed as the percentage of time a machine, typically a computer.",
+        "Bot is active 24/7 :).",
       logo: <SiProbot className="h-10 w-10" />,
     },
     {
-      name: "Automation",
+      name: "Chat bot",
       description:
-        "Automation describes a wide range of technologies that reduce  human intervention in processes.",
-      logo: <TbMessage2Code className="h-10 w-10" />,
-    },
-    {
-      name: "Welcomer",
-      description:
-        "Welcomer is the person who greet the new person in an unique and great way",
+        "Type @Icad_Bot active chat. if you want to know more information please type /active-chat-bot",
       logo: <CgCrown className="h-10 w-10" />,
     },
     // You can added more features if need add
   ],
   //Bot Features
-  serverCount: 300, //-  - Your
+  serverCount: 30, //-  - Your
   memberCount: 700, //--   - Bot
-  executedCommand: 27000, //--  - Stats
-  availableCommand: 400, //---   - Here
+  availableCommand: 28, //---   - Here
   //Do not change if you don't know about them
-  faceBookLogo: (
+  faceBookLogo: ( 
     <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
   ),
   discordLogo: (
@@ -54,12 +47,8 @@ const config = {
   ),
   //----------------------------------------------------------------
   // Your social handle links
-  githubLink: "https://github.com/mohitmimani",
-  twitterLink: "https://twitter.com",
-  mediumLink: "https://medium.com/",
-  facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
-  youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
+  discordLink: "https://discord.gg/9RtC58VJgW",
+  youtubeLink: "https://www.youtube.com/@IcadMY/featured",
 };
 
 export default config;
